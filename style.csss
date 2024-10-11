@@ -1,0 +1,30 @@
+.test {
+width: 75px; 
+height: 75px;  
+border-radius: 0px; 
+position: relative;  
+animation: ili 5s infinite;  
+} 
+
+@keyframes ili {
+	0%   {left: 0px;} 
+	25%  {left: 500px; background: red;} 
+    50%  {left: 350px; background: rgb(224, 221, 20);}
+	75%  {left: 200px; background: green;} 
+	100% {left: 0px; background: rgb(43, 134, 238);} 
+	} 
+
+.test2 {width: 80px; 
+height: 80px;  
+border-radius: 50px; 
+position: relative;  
+animation: pp 5s infinite;
+ }
+
+@keyframes pp {
+	0%   {right: 0px;} 
+	25%  {right: -100px; background: rgb(43, 134, 238);} 
+    50%  {right: -350px; background: rgb(224, 221, 20);}
+	75%  {right: -500px; background: rgb(109, 231, 8);} 
+	100% {right: -600px; background: rgb(238, 43, 43);} 
+	} 
