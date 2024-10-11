@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="style.css"></link> </head>
+<body>
   <div class = "test"></div> <br>
   <div class = "test2"></div>
-</head>
+</body>
 <html>
